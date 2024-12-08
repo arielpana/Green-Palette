@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Green Palette Products</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #15bd15;
+            color: #333;
+        }
+        header {
+            background-color: #26be3b;
+            color: white;
+            text-align: center;
+            padding: 20px 10px;
+        }
+        h1 {
+            margin: 0;
+        }
+        .container {
+            padding: 20px;
+        }
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+        .product-item {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            text-align: center;
+            padding: 15px;
+        }
+        .product-item img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        .product-item h3 {
+            margin: 10px 0;
+            font-size: 18px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        a {
+            text-decoration: none;
+            color: #d64045;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Green Palette Products</h1>
+       
+    </header>
+    <div class="container">
+        <div class="product-grid">
+            <div class="product-item">
+                <img src="468638489_122123994326545950_6898781754004495751_n.jpg" alt="Delicious Sandwich">
+                <h3>Classic Veggie Sandwich</h3>
+            </div>
+            <div class="product-item">
+                <img src="468309820_122123909282545950_4823840530363108806_n.jpg" alt="Fresh Salad">
+                <h3>Garden Fresh Salad</h3>
+            </div>
+            <div class="product-item">
+                <img src="468407533_122123908754545950_3642255425272014424_n.jpg" alt="Healthy Smoothie">
+                <h3>Green Energy Smoothie</h3>
+            </div>
+            <div class="product-item">
+                <img src="468000809_122122828658545950_6931324691258837371_n.jpg" alt="Tasty Wrap">
+                <h3>Chicken Sandwich (Best Seller)</h3>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p><a href="index.html">Back to Home</a></p>
+        <p>&copy; 2024 Green Palette. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
