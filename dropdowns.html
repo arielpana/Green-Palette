@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropdown Buttons Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .dropdown {
+            position: relative;
+            display: inline-block;
+            margin: 20px;
+        }
+        .dropdown button {
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1rem;
+        }
+        .dropdown button:hover {
+            background-color: #555;
+        }
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+            z-index: 1;
+            min-width: 150px;
+        }
+        .dropdown-content a {
+            color: black;
+            padding: 10px 15px;
+            text-decoration: none;
+            display: block;
+            font-size: 1rem;
+        }
+        .dropdown-content a:hover {
+            background-color: #f1f1f1;
+        }
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <!-- Dropdown 1 -->
+    <div class="dropdown">
+        <button>Options</button>
+        <div class="dropdown-content">
+            <a href="#option1">Option 1</a>
+            <a href="#option2">Option 2</a>
+            <a href="#option3">Option 3</a>
+        </div>
+    </div>
+
+    <!-- Dropdown 2 -->
+    <div class="dropdown">
+        <button>More</button>
+        <div class="dropdown-content">
+            <a href="#item1">Item 1</a>
+            <a href="#item2">Item 2</a>
+            <a href="#item3">Item 3</a>
+        </div>
+    </div>
+</body>
+</html>
